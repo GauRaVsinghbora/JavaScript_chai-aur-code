@@ -32,3 +32,34 @@ console.log(typeof bignuber);
 console.log(typeof heros);
 console.log(typeof Myobj);    
 console.log(typeof myfunction);
+
+
+
+/*================================ memory ============================*/
+
+//               Stack (primitive)        Heap (Reference) 
+
+
+
+
+/*=========== Stack memory =============*/
+let myname = "Gaurav bora"
+let mynewname = myname;
+mynewname = "Gaurav singh bora"
+
+console.log(mynewname);
+console.log(myname);
+
+
+/* =========== heap memory=============*/
+const myContact = {
+    Phone_no:9837139020,
+    Email:"Gauravbora2273@gmail.com"
+}
+
+const myNewContact = myContact;
+myNewContact.Phone_no= 6395096944;
+
+//both Phone number will get changes
+console.log(myContact.Phone_no);
+console.log(myNewContact.Phone_no);
