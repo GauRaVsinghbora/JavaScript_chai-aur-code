@@ -21,5 +21,6 @@ const myfunction= function(){
     console.log("hello! world");
 }
 
-console.log(typeof BigInt);
+console.log(typeof Number);
 console.log("gaurav");
+
