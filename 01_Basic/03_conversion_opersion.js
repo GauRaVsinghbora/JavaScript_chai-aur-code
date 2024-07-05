@@ -3,7 +3,7 @@ let score = "123";
 
 
 console.log(typeof score);
-let ValueinNumber= Number(score);             // conversion of score to number.
+let ValueinNumber= Number(score);             // conversion of string to number.
 
 console.log(typeof ValueinNumber);            // printing the type of valueinNumber.
 console.log(ValueinNumber);                   // Printing the value of valueinNumber.
@@ -16,11 +16,11 @@ console.log(ValueinNumber);                   // Printing the value of valueinNu
 
 
 let isLoggedIn = 120;
-console .log(typeof Boolean(isLoggedIn));
-console.log(typeof String(isLoggedIn));        //conversing to Number.
-console.log(Boolean(isLoggedIn))
+console .log(typeof Boolean(isLoggedIn));      //conversing Number to Boolean.
+console.log(typeof String(isLoggedIn));        //conversing Number to string.
+console.log(Boolean(isLoggedIn));
 
-console.log(Number("0x11"));     
+console.log(Number("0x11"));                      
 
 
 
@@ -46,5 +46,5 @@ console.log(2*2);
 console.log(2/2);
 console.log(2**2);
 console.log(2%2);
-console.log(x<<y);
+
 

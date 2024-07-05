@@ -28,7 +28,7 @@ console.log(typeof 123);
 console.log(typeof "string");
 console.log(typeof bignuber);
 
-// reference typeof is gerenally Object.
+// reference typeof is gerenally   o b j e c t.
 console.log(typeof heros);
 console.log(typeof Myobj);    
 console.log(typeof myfunction);
