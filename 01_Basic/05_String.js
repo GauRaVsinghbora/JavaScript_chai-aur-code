@@ -25,11 +25,12 @@ console.log(name.slice(-8,4));       //left to right work only.
 
 const new_name = "  gau rav ";
 console.log(new_name);
-console.log(new_name.trim());          //remove the staring space and end space(white space and line terminators).
+
+const new_name_after_trim = new_name.trim();
+console.log(new_name_after_trim);
+
 console.log(new_name.split(' '));
 console.log(new_name.includes('gau'));
 
 const url="https://gaurav.com%20gauravsingh";
 console.log(url.replace('%20','-'));
-
-
