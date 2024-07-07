@@ -19,7 +19,9 @@ console.log(myArr.indexOf(4));
 
 console.log(myArr.slice(1,3));
 console.log(myArr.splice(1,3));  // mauplate to orginal data type.
-console.log(myArr);              
+console.log(myArr);    
+
+
 const newArr = myArr.join();     // not to manuplate the orginal data type.    
 console.log(newArr);
 console.log(typeof newArr);
