@@ -2,7 +2,7 @@
 //object.create
 
 //object literals
-const mySym = Symbol("keyone");
+const mySym = Symbol("keyone");      
 const JsUser = {
     name:"Gaurav",            // keyvalue pare
     age:19,

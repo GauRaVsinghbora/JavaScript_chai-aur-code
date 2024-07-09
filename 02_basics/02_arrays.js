@@ -17,7 +17,7 @@ console.log(real_another_array);
 
 
 /*=============================== Array library =======================*/
-console.log(Array.isArray("Gaurav"));
+console.log(Array.isArray("Gaurav")); 
 console.log(Array.from("gaurav"));
 
 let score1= 100;
