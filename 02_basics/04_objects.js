@@ -6,6 +6,8 @@ tinderUser.id="123abc";
 tinderUser.name= "Sammy";    
 tinderUser.isLoggedIn = false;
 
+
+// nested ojbect
 const regularUser = {
     email:"gauravsinghbora@jklu.edu.in",
     full_name:{
@@ -13,7 +15,7 @@ const regularUser = {
         last_name:"bora",
     },
 }
-// console.log(regularUser.full_name.first_name);
+// console.log(regularUser.full_name.first_name);   
 
 const obj1 = {1:"a",2:"b"};
 const obj2 = {3:"c",4:"d"};

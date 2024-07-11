@@ -2,17 +2,16 @@ const User = {
     UserName : "GauRaV",
     price: 99,
 
+// this is only work on the object.
     WelcomeMessage: function(){
         console.log(`${this.UserName}, welcome to the website.`);
         console.log(this);
     }
 }
 
-User.WelcomeMessage();
 User.UserName = "hitesh";
 User.WelcomeMessage();
-
-console.log(this);  // this is only work on the object.
+// console.log(this);  
 
 
 // const chai = function(){
@@ -27,8 +26,19 @@ console.log(this);  // this is only work on the object.
 
 
 /*=========================== A R R O W  function=================================*/
-const chai = () => {   
-    var UserName1 = "GauRaV";
 
-}   
-console.log(chai.UserName1);
+const chai = () => {
+    let UserName = "Gaurav";
+    console.log(this);
+} 
+
+chai();
+
+// const addTwo = (num1 , num2) => {
+//     return num1 + num2;
+// }
+
+const addTwo = (num1 ,num2) => (num1 + num2);
+const Username = (num1 ,num2) => ({UserName:"Gaurav"});
+
+// console.log(addTwo(9,1));
