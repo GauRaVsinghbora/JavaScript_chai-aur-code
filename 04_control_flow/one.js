@@ -37,3 +37,42 @@ if (UserLoggedIn && debitcard && (LoggedInFromEmail || LoggedInFromGoogle || Gue
 if (LoggedInFromEmail || LoggedInFromGoogle || GuestUser){
     console.log("You can Use Our website");
 }
+
+
+
+/*================================ switch =============================*/
+
+// switch (key) {      key is variable or whom we are checking form. 
+//     case value: 
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+const month = 3;
+switch (month) {
+    case 1: 
+        console.log("January");
+        break;
+    case 2:
+            console.log("Fabuaray");
+            break;
+    case 3:
+        console.log("March");
+        break;
+    case 4:
+        console.log("April");
+        break;
+
+    default:
+        console.log("default case match");
+        break;
+}
+
+
+/*======================= ternary operator ==========================*/
+
+const iceTeaPrice = 100;
+iceTeaPrice > 50 ? console.log("more than 50"): console.log("less than 50");
