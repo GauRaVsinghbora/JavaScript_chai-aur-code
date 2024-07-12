@@ -33,6 +33,7 @@ for(let i=1; i<=20; i++){
     console.log(`value of i is ${i}`);
 }
 
+
 for(let i=1; i<=20; i++){
     if (i == 7){
         console.log(`Detected ${i}`);
