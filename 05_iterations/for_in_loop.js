@@ -4,13 +4,17 @@ const myObject = {
     rb:"ruby",
     swift:"swift by apple"
 }
+// for (const [key,value] of myObject) {            // object is not  i t e r a b l e.
+//     console.log(key,":",value);
+// }
 
 for (const key in myObject) {
     // console.log(`${key} : ${myObject[key]}`);
 }
-// for (const key of myObject){
+// for (const key of myObject){              
 //     console.log(`${key}`);
 // }
+
 // for(let i=1; i<=Object.keys(myObject).length; i++){
 //     console.log(`${i} : ${Object.keys(myObject[i])}`);
 // }
@@ -21,3 +25,4 @@ for (const key in programming) {
     // console.log(key);                   // array has also the key startin from the 0. 
     // console.log(programming[key]);
 }
+

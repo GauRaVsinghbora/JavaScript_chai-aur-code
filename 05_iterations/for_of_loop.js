@@ -24,3 +24,6 @@ for (const [key,value] of map) {
     // console.log(key,":",value);
 }
 
+for(const key in map){     // map is not iterable
+    console.log(key);
+}
