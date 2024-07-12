@@ -19,7 +19,6 @@ while(j<myDcHero.length){
 /*========================== do while ===========================*/
 
 // do {
-    
 // } while (condition);
 
 
