@@ -8,9 +8,15 @@ console.log(myNewArr[5]);
 
 myArr.push(6);
 myArr.push(7);
-myArr.pop();                     // remove the last element.
-myArr.unshift(9);                // add the element to zero index;
-myArr.shift();                   // remove the element form the zero index;
+myArr.pop();                     // remove the last element. and it return the lenght;
+myArr.unshift(9);                // add the element to zero index; and it return the lenght;
+myArr.shift();                   // remove the element form the zero index; and it return the lenght;
+
+const sports = ["soccer", "baseball"];
+const total = sports.push("football", "swimming");
+
+console.log(sports); // ['soccer', 'baseball', 'football', 'swimming']
+console.log(total); // 4         
 
 
 console.log(myArr);              // array is   s h a l l o w  copy.
